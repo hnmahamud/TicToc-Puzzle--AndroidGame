@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Puzzle</string>
+
+    <string name="introduction">
+        Congratulation on downloading UODA_Games app on your android phone! In this app there are two type of games such as, Puzzle and TicTocToe. These games are made by UODA official logo, thats why the app name is UODA_Games. You can get more information by clicking ABOUT UODA and ABOUT DEVELOPER from menu bar.\n\n
+    </string>
+
+    <string name="puzzle">
+        When you open the app and press PUZZLE then press LETS PLAY button, the tiles will scramble themselves! Your job is to get the picture back to normal by sliding the tiles about. A tile above or below or to the left or to the right moved by sliding on it. In this way the tiles are moved about.\n\n
+    </string>
+
+    <string name="tictoctoe">
+        Again when you open the app and press TicTocToe then press LETS PLAY button, the game is open! The game is played on a grid thats 3 squares by 3 squares. You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.\n\n
+    </string>
+
+</resources>

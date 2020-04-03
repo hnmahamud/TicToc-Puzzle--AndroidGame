@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Introduction:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="#00a2ff"
+                    android:textStyle="bold"
+                    android:textIsSelectable="true">
+                </TextView>
+
+                <TextView
+                    android:text="@string/introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textIsSelectable="true">
+                </TextView>
+
+                <TextView
+                    android:text="Puzzle:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="#00a2ff"
+                    android:textStyle="bold"
+                    android:textIsSelectable="true">
+                </TextView>
+
+                <TextView
+                    android:text="@string/puzzle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textIsSelectable="true">
+                </TextView>
+
+                <TextView
+                    android:text="TicTocToe:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="#00a2ff"
+                    android:textStyle="bold"
+                    android:textIsSelectable="true">
+                </TextView>
+
+                <TextView
+                    android:text="@string/tictoctoe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textIsSelectable="true">
+                </TextView>
+
+                <TextView
+                    android:text="Thank you..."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="35dp"
+                    android:textColor="#ff8400"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:textIsSelectable="true">
+                </TextView>
+
+        </LinearLayout>
+</ScrollView>

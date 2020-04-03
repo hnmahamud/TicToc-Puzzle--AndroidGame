@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level 1:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#37c2a7"/>
+
+<com.example.lenovo.puzzle.GestureDetectGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid"
+    android:layout_marginTop="170dp"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_marginLeft="15dp"
+    android:layout_centerHorizontal="true"
+    tools:context=".MainActivity"/>
+
+</RelativeLayout>

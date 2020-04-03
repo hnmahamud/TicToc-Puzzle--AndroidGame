@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/mahamud"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/facebookButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/facebook"
+        android:text=" HN Mahamud"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/rounded_button"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail: hnmahamud@gmail.com"
+        android:textSize="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +8801788062232"
+        android:textSize="20dp"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

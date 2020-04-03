@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/uodaID"
+        android:title="About UODA"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/developerID"
+        android:title="About Developer"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/usermanualID"
+        android:title="User Manual"
+        app:showAsAction="never"
+        />
+
+</menu>
